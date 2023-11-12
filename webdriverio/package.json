@@ -4,20 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.1.0",
+    "@vitejs/plugin-react": "^4.1.1",
+    "@wdio/browser-runner": "^8.22.1",
     "@wdio/cli": "5.7.13",
     "@wdio/dot-reporter": "^5.7.8",
     "@wdio/local-runner": "^5.7.13",
-    "@wdio/mocha-framework": "^5.7.13",
+    "@wdio/mocha-framework": "^8.22.0",
     "@wdio/selenium-standalone-service": "^5.7.8",
-    "@wdio/spec-reporter": "^5.7.13",
+    "@wdio/spec-reporter": "^8.21.0",
     "@wdio/sync": "^5.7.13",
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "react": "^18.2.0"
   },
   "dependencies": {
     "mocha": "^6.1.4"
