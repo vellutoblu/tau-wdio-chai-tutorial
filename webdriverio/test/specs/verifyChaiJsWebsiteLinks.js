@@ -47,7 +47,7 @@ describe('Verify whether chaijs.com links on ' +
              "title is not 'Introduction - Chai'"
          )
 
-    // });
+     });
 
 
 });
