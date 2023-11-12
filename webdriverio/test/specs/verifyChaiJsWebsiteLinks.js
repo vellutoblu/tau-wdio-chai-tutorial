@@ -40,8 +40,8 @@ describe('Verify whether chaijs.com links on ' +
          element.click();
          browser.pause(5000);
          const title = browser.getTitle();
-         // assert(title === 'Introduction - Chai',
-         //     "title is not 'Introduction - Chai'");
+         assert(title === 'Introduction - Chai',
+              "title is not 'Introduction - Chai'");
          title.should.be.a('string').and.equal(
              'Introduction - Chai',
              "title is not 'Introduction - Chai'"
